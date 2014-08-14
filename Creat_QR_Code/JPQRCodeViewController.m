@@ -39,6 +39,7 @@
     
     QRImageView.image = [QRCodeGenerator qrImageForString:str imageSize:QRImageView.frame.size.width];
     
+    [self.view setBackgroundColor:[UIColor grayColor]];
 }
 
 - (void)didReceiveMemoryWarning
